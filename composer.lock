@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "626b9e7ddd47fb7eff9aaa53cce0c9ad",
+    "content-hash": "2fa6e51549f35d4d82c70a20b310920a",
     "packages": [
         {
             "name": "brick/math",
@@ -5800,6 +5800,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "chriskite/phactory",
+            "version": "v0.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chriskite/phactory.git",
+                "reference": "fa0140e27992dbcc5d70c523f738c373d5a75061"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chriskite/phactory/zipball/fa0140e27992dbcc5d70c523f738c373d5a75061",
+                "reference": "fa0140e27992dbcc5d70c523f738c373d5a75061",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "ext-mongo": "*",
+                "ext-pdo": "*",
+                "ext-pdo_sqlite": "*"
+            },
+            "suggest": {
+                "ext-mongo": "Allows use of Phactory for testing against MongoDB databases",
+                "ext-pdo": "Allows use of Phactory for testing against SQL databases",
+                "ext-pdo_mysql": "Allows use of Phactory for testing against MySQL databases",
+                "ext-pdo_sqlite": "Allows use of Phactory for testing against SQLite databases"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Phactory": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A Database Factory for PHP Unit Tests",
+            "homepage": "http://phactory.org",
+            "keywords": [
+                "database",
+                "mongodb",
+                "mysql",
+                "sqlite",
+                "testing"
+            ],
+            "support": {
+                "issues": "https://github.com/chriskite/phactory/issues",
+                "source": "https://github.com/chriskite/phactory/tree/v0.4.3"
+            },
+            "time": "2013-07-11T01:48:16+00:00"
+        },
         {
             "name": "fakerphp/faker",
             "version": "v1.24.1",
